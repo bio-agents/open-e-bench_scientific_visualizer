@@ -1,0 +1,192 @@
+.error-line {
+    stroke: black;
+    stroke-dasharray: 2, 2;
+}
+
+.error-cap {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+div.benchmark_agenttip {
+    background-color: #fff;
+    padding: 7px;
+    text-shadow: #f5f5f5 0 1px 0;
+    font: 15px Helvetica Neue;
+    border: 4.5px solid;
+    border-color: #0a58a2;
+    border-radius: 3px;
+    opacity: 0.95;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 10px 15px;
+    z-index: 3;
+}
+
+
+/* .benchmark_agenttip:after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      margin-top: -10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent transparent transparent;
+      
+  } */
+
+.plot-bg {
+    fill: #f8f8f8;
+    stroke: black;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.bench_grid {
+    stroke-opacity: 0.1;
+    stroke-dasharray: 7, 5;
+}
+
+.classificators_list {
+    order: 1;
+    background-color: #0a58a2;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1vw;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    text-align: center;
+    width: 20vw;
+    float: left;
+    height: 1.5vw;
+    cursor: pointer;
+}
+
+.classificators_list:hover {
+    background-color: #b3cde0;
+}
+
+.benchmarkingTable_scatter td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+.benchmarkingTable_scatter {
+    order: 2;
+    width: 18vw;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    border: 5px solid black;
+    /* float: right; */
+    margin-left: 1vw;
+}
+
+.benchmark_legend_rect {
+    cursor: pointer;
+}
+
+.benchmarkingChart_scatter {
+    width: inherit;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.buttons_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.benchmarkingSVG {
+    order: 1;
+    width: 60vw;
+}
+
+.axis--x {
+    font-size: 12px;
+}
+
+.axis--y {
+    font-size: 12px;
+}
+
+.removal_alert {
+    padding: 10px;
+    background-color: #ffcccc;
+    color: #d10000;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: #d10000;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: white;
+}
+
+.OEB_text_link {
+    cursor: pointer;
+    fill: #0000ee;
+}
+
+.toggle_axis_button {
+    background-color: #0a58a2;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    height: 1.5vw;
+    font-size: 1vw;
+    width: 10vw;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.download_button {
+    background-color: #0a58a2;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1vw;
+    text-align: center;
+    width: 10vw;
+    height: 1.5vw;
+}
+
+.download_div {
+    order: 3;
+    padding-left: .5vw;
+    padding-top: 1vh;
+}
+
+.toggle_div {
+    order: 2;
+    padding-left: .5vw;
+    padding-top: .8vh;
+}
+
+.classif_list_div{
+    order: 1;
+    padding-top: 1vh;
+}

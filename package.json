@@ -1,0 +1,47 @@
+{
+  "name": "@inb/oeb-chart-scatter",
+  "version": "1.1.4",
+  "description": "benchmarkingChart_scatter",
+  "main": "build/build.js",
+  "devDependencies": {
+    "apollo-fetch": "^0.7.0",
+    "clusters": "0.0.4",
+    "css-loader": "^1.0.0",
+    "d3": "^5.5.0",
+    "d3-polygon": "^1.0.5",
+    "d3-save-svg": "0.0.2",
+    "html2canvas": "^1.0.0-rc.5",
+    "jquery": "^3.3.1",
+    "jspdf": "^1.5.3",
+    "license-checker": "^25.0.1",
+    "pareto-frontier": "^1.1.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "prod": "webpack-cli src/app.js --output=build/build.js -p;",
+    "dev": "webpack-cli src/app.js --output=build/build.js -d -w;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Garrayo <me.javi@hotmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inab/OpenEBench_scientific_visualizer.git"
+  },
+  "keywords": [
+    "visualization",
+    "chart",
+    "scatter",
+    "benchmarking",
+    "openEBench",
+    "visualizer",
+    "iechor-europe",
+    "iechor-spain"
+  ],
+  "bugs": {
+    "url": "https://github.com/inab/OpenEBench_scientific_visualizer/issues"
+  },
+  "homepage": "https://github.com/inab/OpenEBench_scientific_visualizer#readme"
+}
